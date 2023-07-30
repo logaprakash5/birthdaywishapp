@@ -1,0 +1,13 @@
+
+  .tri{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 0px;
+    height:0px;
+    border-top: 100px solid blueviolet;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid blueviolet; 
+  }

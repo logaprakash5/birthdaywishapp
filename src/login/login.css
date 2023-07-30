@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "balloons";
+    src: url('../fonts/PWBalloon.ttf') format("truetype");
+}
+@font-face {
+    font-family: "blestivescript";
+    src: url('../fonts/BlestiveScript_PERSONAL_USE_ONLY.otf') format("opentype");
+}@font-face {
+    font-family: "creamcake";
+    src: url('../fonts/CreamCake.otf') format("opentype");
+}@font-face {
+    font-family: "bubble";
+    src: url('../fonts/CuteBubble.ttf') format("truetype");
+}
+@font-face {
+    font-family: "brush";
+    src: url('../fonts/brushfont.ttf') format("truetype");
+}
+.div2{
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 250px;
+
+}
+.crcti{
+  /* height: 300px;
+  width: 200px; */
+  margin-top: -150px;
+}
+
+.loginbox{
+    border: 2px solid yellow;
+    margin-left: 70%;
+    padding: 15px;
+    margin-top : 0% ;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.login{
+    text-align: center;
+    font-family: 'brush';
+    font-weight: 400;
+    font-size: 101px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.loglabel{
+    font-family:'creamcake';
+    font-size: 30px;
+}
+
+.inp{
+    left: 0;
+	top: 0;
+	width: 250px;
+	border: none;
+    border-bottom: 2px solid black;
+	outline: none;
+	background: none;
+	padding: 0.5rem 0.7rem;
+	font-size: 1.2rem;
+	color: #555;
+    font-weight: 600;
+	font-family: 'balloons';
+    font-size: 25px;
+}
+
+.bitmoji{
+    margin-left: 70%;
+    margin-top: -2%;
+}
+
+/* .show{
+    position: absolute;
+    margin-left: 75.5%;
+    margin-top: 2%;
+    border-radius: 20px;
+    border: 1.5 px;
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    width: 140px;
+    cursor: pointer;
+} */
+.hide{
+    display: none;
+}
+
+
+.cb{
+    position: relative;
+}
+
+.tandc{
+    position: absolute;
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 0px;
+}
+.declare{
+    margin-left: 15px;
+    font-size: 12px;;
+}
+
+.show {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    margin-left: 75.5%;
+    margin-top: 1%;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 2em;
+    max-width: 100%;
+    padding: 0px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    min-width: 140px;
+    font-size: 24px;
+  }
+  
+  .show:active,
+  .show:hover {
+    outline: 0;
+  }
+  
+  /* @media (min-width: 768px) {
+    .show {
+      font-size: 24px;
+      min-width: 140px;
+    }
+  } */
+
+  .left {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    margin-left: 70%;
+    margin-top: 1%;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 2em;
+    max-width: 100%;
+    padding: 0px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    min-width: 140px;
+    font-size: 24px;
+  }
+  
+  .left:active,
+  .left:hover {
+    outline: 0;
+  }
+  
+  /* @media (min-width: 768px) {
+    .left {
+      font-size: 24px;
+      min-width: 140px;
+    }
+  } */
+  .right {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    margin-left: 82%;
+    margin-top: 1%;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 2em;
+    max-width: 100%;
+    padding: 0px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    min-width: 140px;
+    font-size: 24px;
+  }
+  
+  .right:active,
+  .right:hover {
+    outline: 0;
+  }
+  
+  /* @media (min-width: 768px) {
+    .right {
+      font-size: 24px;
+      min-width: 140px;
+    }
+  } */

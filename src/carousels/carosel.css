@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "balloons";
+    src: url('../fonts/PWBalloon.ttf') format("truetype");
+}
+@font-face {
+    font-family: "blestivescript";
+    src: url('../fonts/BlestiveScript_PERSONAL_USE_ONLY.otf') format("opentype");
+}@font-face {
+    font-family: "creamcake";
+    src: url('../fonts/CreamCake.otf') format("opentype");
+}@font-face {
+    font-family: "bubble";
+    src: url('../fonts/CuteBubble.ttf') format("truetype");
+}
+@font-face {
+    font-family: "brush";
+    src: url('../fonts/brushfont.ttf') format("truetype");
+}
+.Carousel{
+    height: 10%;
+    width: 300px;
+}
+button{
+    display: none;
+}
+
+.logcap{
+    color: white;
+    margin-bottom: -30px;
+    font-family: sans-serif;
+}
+
+.family{
+    background: -webkit-linear-gradient(120deg, #fbef97 20%, #ffe41d 80%);
+   background: linear-gradient(120deg, #fbef97 20%, #ffe41d 80%);
+   height: 600px;
+   width: 600px;
+}
+
+.fr{
+    font-family: "creamcake";
+    font-size: 100px;
+    float: right;
+    margin-right: 33%;
+    margin-top: 30%;
+    cursor: pointer;
+}
+.fr2{
+    font-family: "creamcake";
+    font-size: 100px;
+    float: right;
+    margin-right: 33%;
+    margin-top: 30%;
+    text-decoration: line-through;
+}
+
+
+.fr1{
+    font-family: "creamcake";
+    font-size: 100px;
+    float: right;
+    margin-right: 22%;  
+}
